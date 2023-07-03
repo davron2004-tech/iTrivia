@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		42C73D932A52A08000F52B85 /* iTriviaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C73D922A52A08000F52B85 /* iTriviaApp.swift */; };
-		42C73D952A52A08000F52B85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C73D942A52A08000F52B85 /* ContentView.swift */; };
 		42C73D972A52A08100F52B85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42C73D962A52A08100F52B85 /* Assets.xcassets */; };
 		42C73D9A2A52A08100F52B85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42C73D992A52A08100F52B85 /* Preview Assets.xcassets */; };
+		42C73DA22A52A0F900F52B85 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C73DA12A52A0F900F52B85 /* WelcomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		42C73D8F2A52A08000F52B85 /* iTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42C73D922A52A08000F52B85 /* iTriviaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTriviaApp.swift; sourceTree = "<group>"; };
-		42C73D942A52A08000F52B85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		42C73D962A52A08100F52B85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42C73D992A52A08100F52B85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		42C73DA12A52A0F900F52B85 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +51,8 @@
 		42C73D912A52A08000F52B85 /* iTrivia */ = {
 			isa = PBXGroup;
 			children = (
+				42C73DA02A52A0E800F52B85 /* Views */,
 				42C73D922A52A08000F52B85 /* iTriviaApp.swift */,
-				42C73D942A52A08000F52B85 /* ContentView.swift */,
 				42C73D962A52A08100F52B85 /* Assets.xcassets */,
 				42C73D982A52A08100F52B85 /* Preview Content */,
 			);
@@ -65,6 +65,14 @@
 				42C73D992A52A08100F52B85 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		42C73DA02A52A0E800F52B85 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				42C73DA12A52A0F900F52B85 /* WelcomeScreen.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42C73D952A52A08000F52B85 /* ContentView.swift in Sources */,
+				42C73DA22A52A0F900F52B85 /* WelcomeScreen.swift in Sources */,
 				42C73D932A52A08000F52B85 /* iTriviaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
