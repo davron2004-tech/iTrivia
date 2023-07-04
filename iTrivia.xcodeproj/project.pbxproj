@@ -11,7 +11,18 @@
 		42C73D972A52A08100F52B85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42C73D962A52A08100F52B85 /* Assets.xcassets */; };
 		42C73D9A2A52A08100F52B85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42C73D992A52A08100F52B85 /* Preview Assets.xcassets */; };
 		42C73DA22A52A0F900F52B85 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C73DA12A52A0F900F52B85 /* WelcomeScreen.swift */; };
-		42C73DA42A52AF8A00F52B85 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C73DA32A52AF8A00F52B85 /* RegisterScreen.swift */; };
+		DDB88FCC2A54379A00A59691 /* NewQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB88FCB2A54379A00A59691 /* NewQuizView.swift */; };
+		DDB88FCE2A5442AE00A59691 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB88FCD2A5442AE00A59691 /* QuestionView.swift */; };
+		DDB88FD02A5442F300A59691 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB88FCF2A5442F300A59691 /* QuizManager.swift */; };
+		DDF5C6C22A52D892001D1BB0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF5C6C12A52D892001D1BB0 /* SignUpView.swift */; };
+		DDF5C6C42A52DB6F001D1BB0 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF5C6C32A52DB6F001D1BB0 /* LogInView.swift */; };
+		DDF5C6C72A52E418001D1BB0 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF5C6C62A52E418001D1BB0 /* SignUpController.swift */; };
+		DDF5C6C92A52E449001D1BB0 /* LogInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF5C6C82A52E449001D1BB0 /* LogInController.swift */; };
+		DDF5C6CB2A52E5AD001D1BB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF5C6CA2A52E5AD001D1BB0 /* AppDelegate.swift */; };
+		DDF5C6CE2A52E7CF001D1BB0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DDF5C6CD2A52E7CF001D1BB0 /* FirebaseAuth */; };
+		DDF5C6D02A52E7CF001D1BB0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DDF5C6CF2A52E7CF001D1BB0 /* FirebaseFirestore */; };
+		DDF5C6D42A52F226001D1BB0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDF5C6D32A52F226001D1BB0 /* GoogleService-Info.plist */; };
+		DDF5C6D62A52FA2F001D1BB0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF5C6D52A52FA2F001D1BB0 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +31,16 @@
 		42C73D962A52A08100F52B85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42C73D992A52A08100F52B85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		42C73DA12A52A0F900F52B85 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
-		42C73DA32A52AF8A00F52B85 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		DDB88FCB2A54379A00A59691 /* NewQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewQuizView.swift; sourceTree = "<group>"; };
+		DDB88FCD2A5442AE00A59691 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		DDB88FCF2A5442F300A59691 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
+		DDF5C6C12A52D892001D1BB0 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		DDF5C6C32A52DB6F001D1BB0 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		DDF5C6C62A52E418001D1BB0 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		DDF5C6C82A52E449001D1BB0 /* LogInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInController.swift; sourceTree = "<group>"; };
+		DDF5C6CA2A52E5AD001D1BB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDF5C6D32A52F226001D1BB0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DDF5C6D52A52FA2F001D1BB0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDF5C6CE2A52E7CF001D1BB0 /* FirebaseAuth in Frameworks */,
+				DDF5C6D02A52E7CF001D1BB0 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,9 +75,12 @@
 		42C73D912A52A08000F52B85 /* iTrivia */ = {
 			isa = PBXGroup;
 			children = (
+				DDF5C6CA2A52E5AD001D1BB0 /* AppDelegate.swift */,
 				42C73DA02A52A0E800F52B85 /* Views */,
 				42C73D922A52A08000F52B85 /* iTriviaApp.swift */,
+				DDF5C6C52A52E3AA001D1BB0 /* Controllers */,
 				42C73D962A52A08100F52B85 /* Assets.xcassets */,
+				DDF5C6D32A52F226001D1BB0 /* GoogleService-Info.plist */,
 				42C73D982A52A08100F52B85 /* Preview Content */,
 			);
 			path = iTrivia;
@@ -73,9 +98,23 @@
 			isa = PBXGroup;
 			children = (
 				42C73DA12A52A0F900F52B85 /* WelcomeScreen.swift */,
-				42C73DA32A52AF8A00F52B85 /* RegisterScreen.swift */,
+				DDF5C6C12A52D892001D1BB0 /* SignUpView.swift */,
+				DDF5C6C32A52DB6F001D1BB0 /* LogInView.swift */,
+				DDF5C6D52A52FA2F001D1BB0 /* HomeView.swift */,
+				DDB88FCB2A54379A00A59691 /* NewQuizView.swift */,
+				DDB88FCD2A5442AE00A59691 /* QuestionView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		DDF5C6C52A52E3AA001D1BB0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DDF5C6C62A52E418001D1BB0 /* SignUpController.swift */,
+				DDF5C6C82A52E449001D1BB0 /* LogInController.swift */,
+				DDB88FCF2A5442F300A59691 /* QuizManager.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +133,10 @@
 			dependencies = (
 			);
 			name = iTrivia;
+			packageProductDependencies = (
+				DDF5C6CD2A52E7CF001D1BB0 /* FirebaseAuth */,
+				DDF5C6CF2A52E7CF001D1BB0 /* FirebaseFirestore */,
+			);
 			productName = iTrivia;
 			productReference = 42C73D8F2A52A08000F52B85 /* iTrivia.app */;
 			productType = "com.apple.product-type.application";
@@ -122,6 +165,9 @@
 				Base,
 			);
 			mainGroup = 42C73D862A52A08000F52B85;
+			packageReferences = (
+				DDF5C6CC2A52E7CF001D1BB0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 42C73D902A52A08000F52B85 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,6 +184,7 @@
 			files = (
 				42C73D9A2A52A08100F52B85 /* Preview Assets.xcassets in Resources */,
 				42C73D972A52A08100F52B85 /* Assets.xcassets in Resources */,
+				DDF5C6D42A52F226001D1BB0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,9 +195,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42C73DA42A52AF8A00F52B85 /* RegisterScreen.swift in Sources */,
+				DDB88FCE2A5442AE00A59691 /* QuestionView.swift in Sources */,
+				DDF5C6CB2A52E5AD001D1BB0 /* AppDelegate.swift in Sources */,
+				DDB88FCC2A54379A00A59691 /* NewQuizView.swift in Sources */,
+				DDF5C6C42A52DB6F001D1BB0 /* LogInView.swift in Sources */,
+				DDF5C6C22A52D892001D1BB0 /* SignUpView.swift in Sources */,
+				DDF5C6C92A52E449001D1BB0 /* LogInController.swift in Sources */,
 				42C73DA22A52A0F900F52B85 /* WelcomeScreen.swift in Sources */,
+				DDB88FD02A5442F300A59691 /* QuizManager.swift in Sources */,
+				DDF5C6D62A52FA2F001D1BB0 /* HomeView.swift in Sources */,
 				42C73D932A52A08000F52B85 /* iTriviaApp.swift in Sources */,
+				DDF5C6C72A52E418001D1BB0 /* SignUpController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iTrivia/Preview Content\"";
-				DEVELOPMENT_TEAM = G38494BMJP;
+				DEVELOPMENT_TEAM = 4RUKJ5BRNZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -292,7 +347,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.asror.iTrivia;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davron.iTrivia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -308,7 +363,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iTrivia/Preview Content\"";
-				DEVELOPMENT_TEAM = G38494BMJP;
+				DEVELOPMENT_TEAM = 4RUKJ5BRNZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -321,7 +376,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.asror.iTrivia;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davron.iTrivia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -351,6 +406,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DDF5C6CC2A52E7CF001D1BB0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 10.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DDF5C6CD2A52E7CF001D1BB0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDF5C6CC2A52E7CF001D1BB0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DDF5C6CF2A52E7CF001D1BB0 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDF5C6CC2A52E7CF001D1BB0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 42C73D872A52A08000F52B85 /* Project object */;
 }

@@ -9,28 +9,39 @@ import SwiftUI
 
 struct WelcomeScreen: View {
     var body: some View {
-        VStack {
-            Spacer()
-            Text("iTrivia")
-                .fontWeight(.bold)
-                .font(.system(size: 40))
-            Spacer()
-            HStack {
-                Button("Sign Up") {
+        NavigationView{
+            VStack {
+                Spacer()
+                Text("iTrivia")
+                    .fontWeight(.bold)
+                    .font(.system(size: 40))
+                    .foregroundColor(Color.blue)
+                Spacer()
+                HStack {
+                    NavigationLink(destination: SignUpView()){
+                        Text("Sign Up")
+                            .foregroundColor(.white)
+                            .font(.system(size: 24))
+                            .padding()
+                            .background(Color.blue)
+                            .cornerRadius(20)
+                            .padding(.trailing, 30)
+                    }
+                    NavigationLink(destination: LogInView()){
+                        Text("Log In")
+                            .foregroundColor(.white)
+                            .font(.system(size: 24))
+                            .padding()
+                            .background(Color.blue)
+                            .cornerRadius(20)
+                    }
                     
                 }
-                    .foregroundColor(.blue)
-                    .font(.system(size: 24))
-                    .padding(.horizontal)
-                Button("Log In") {
-                    
-                }
-                    .foregroundColor(.blue)
-                    .font(.system(size: 24))
-                    .padding(.horizontal)
+                
             }
+            .padding(.all)
         }
-        .padding(.all)
+        .navigationBarBackButtonHidden(true)
     }
 }
 
